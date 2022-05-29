@@ -5,7 +5,7 @@ class CardsCats{
         // console.log(elem)
         elem[0].classList.remove('hidden')
         if (localStorage.getItem('cats').indexOf(url) !== -1){
-            elem[0].src = "/img/delete.svg";
+            elem[0].src = "img/delete.svg";
         }
     }
     deleteLike(id){
@@ -15,11 +15,11 @@ class CardsCats{
 
     leaveLike(id){
         let elem = document.getElementsByClassName(id)
-        elem[0].src = "/img/like.svg";
+        elem[0].src = "img/like.svg";
     }
     checkLike(id){
         let elem = document.getElementsByClassName(id)
-        elem[0].src = "/img/delete.svg";
+        elem[0].src = "img/delete.svg";
     }
 
     render(){
@@ -37,7 +37,7 @@ class CardsCats{
                     <img
                             
                          class="img-like hidden ${item.id}"
-                         src="/img/like.svg"
+                         src="img/like.svg"
                          id="${item.id}"
                          onclick="likesCats.setCat('${item.url}')"
                          onmouseleave="cardsCats.leaveLike('${item.id}')"
