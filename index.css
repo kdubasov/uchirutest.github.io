@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;500;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-show-cats{
+    position: fixed;
+    bottom: 2%;
+    z-index: 1000;
+    right: 2%;
+    background: #2196F3;
+    color: #FFF;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    font-weight: 400;
+    font-size: 16px;
+    transition: .3s;
+    cursor: pointer;
+}
+.btn-show-cats:hover{
+    background: #1375c0;
+}

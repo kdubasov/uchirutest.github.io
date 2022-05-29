@@ -1,0 +1,29 @@
+.navbar-top{
+    width: 100%;
+    height: 64px;
+    background: #2196F3;
+    margin: 0;
+    padding: 0;
+    --bs-navbar-padding-y: 0rem;
+    display: flex;
+}
+
+.navbar-top span{
+    margin-left: 7%;
+    display: flex;
+    align-items: center;
+}
+
+.a-container a{
+    height: 64px;
+    padding: 16px 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 18px;
+    /*background: red;*/
+}
+
+.a-container a:hover{
+    background: #1E88E5;
+}

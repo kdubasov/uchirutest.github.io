@@ -1,0 +1,70 @@
+.cards-spisok-container{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card-cat{
+    width: 23%;
+    margin: 1%;
+    max-height: 300px;
+    --bs-card-border-color:none;
+}
+@media screen and (max-width: 1200px){
+    .card-cat{
+        width: 31%;
+    }
+}
+@media screen and (max-width: 900px){
+    .card-cat{
+        width: 48%;
+    }
+}
+
+.card-cat img{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.img-cat-card{
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.24), 0 9px 18px rgba(0, 0, 0, 0.18);
+}
+
+.img-like{
+    max-width: 40px;
+    max-height: 37px;
+    position: absolute;
+    bottom: 55px;
+    left: 20px;
+    cursor: pointer;
+    box-shadow: none;
+    transition: .3s;
+}
+@media screen and (max-width: 600px){
+    .card-cat{
+        max-height: 200px;
+    }
+    .card-cat img{
+        height: 200px;
+    }
+    .img-like{
+        bottom: 45px;
+        left: 10px;
+    }
+}
+@media screen and (max-width: 400px){
+    .card-cat{
+        max-height: 150px;
+    }
+    .card-cat img{
+        height: 150px;
+    }
+}
+
+.hidden{
+    display: none;
+}
