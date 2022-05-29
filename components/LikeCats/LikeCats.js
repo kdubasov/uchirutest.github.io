@@ -37,7 +37,7 @@ class LikeCats{
             likeCatsSpisok += `
                 <div class="card-cat">
                     <img class="img-cat-card" src='${item}' alt='${item}'>
-                    <img onclick="likesCats.deleteCat('${item}')" src="/img/delete.svg" class="img-like">
+                    <img onclick="likesCats.deleteCat('${item}')" src="img/delete.svg" class="img-like">
                 </div>
             `;
         });
